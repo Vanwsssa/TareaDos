@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_smile"
+        android:icon="@drawable/outline_dentistry_24"
+        android:title="Dientes" />
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/outline_cardio_load_24"
+        android:title="Estructura" />
+    <item
+        android:id="@+id/navigation_video"
+        android:icon="@drawable/outline_hangout_video_24"
+        android:title="Video informativo" />
+</menu>

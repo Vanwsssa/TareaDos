@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main2"
+    app:startDestination="@id/navigation_smile">
+
+    <fragment
+        android:id="@+id/navigation_smile"
+        android:name="com.example.tareados.ui.main2.SmileFragment2"
+        android:label="Mira los dientes de cerca"
+        tools:layout="@layout/fragment_smile2" />
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.example.tareados.ui.main2.InfoFragment2"
+        android:label="Estructura de los dientes"
+        tools:layout="@layout/fragment_info2" />
+
+    <fragment
+        android:id="@+id/navigation_video"
+        android:name="com.example.tareados.ui.main2.VideoFragment2"
+        android:label="Video sobre la estructura de tus dientes"
+        tools:layout="@layout/fragment_video2" />
+
+</navigation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/outline_child_hat_24"
+        android:title="Mira mi sonrisa" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/outline_dentistry_24"
+        android:title="Cantidad de dientes" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/outline_hangout_video_24"
+        android:title="Video informativo" />
+
+
+</menu>
